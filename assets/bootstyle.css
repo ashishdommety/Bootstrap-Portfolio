@@ -1,0 +1,48 @@
+body{
+  background-image: url(images/bg-3.png);
+}
+.pic{
+  width:200px;
+  height:300px;
+}
+.icons{
+  width:50px;
+  height:50px;
+}
+.text{
+  margin-left: 20px;
+}
+.foot{
+  text-align: center;
+  color:#435140;
+  background-image: url(images/bg-2.png);
+  padding:30px;
+  margin-top: 20px;
+}
+.box{
+    background-image: url(images/bg-2.png);
+    padding:20px;
+}
+.work{
+  width:120px;
+  height:120px;
+}
+.title{
+  text-align: center;
+}
+.formHead{
+  font-size: 20px;
+  margin-left: 10px;
+}
+.details{
+  margin-left: 10px;
+  width:90%;
+}
+.submit{
+  font-size: 20px;
+  background-color: #738769;
+  border:none;
+  color:white;
+  padding: 10px;
+  margin: 10px;
+}

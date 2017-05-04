@@ -1,66 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="assets/reset.css">
-    <link rel="stylesheet" href="assets/style.css">
-  </head>
-  <body>
-    <header id="head">
-      <a href="index.html"><h1>Ashish Dommety</h1></a>
-      <ul>
-        <a href="index.html"><li>About</li></a>
-        <a href="portfolio.html"><li>Portfolio</li></a>
-        <a href="contact.html"><li>Contact</li></a>
-      </ul>
-    </header>
-    <br><br><br><br>
-      <hr>
-    <div id="page">
-      <div id="content">
-        <h2>Portfolio</h2>
-        <hr>
-        <div id="calc">
-          <a href="http://codepen.io/ashishdommety/full/ZejmqQ/" target="_blank">
-            <h3>Calculator</h3>
-            <img class="work" src="assets/images/calc.png" alt="calculator">
-          </a>
-        </div>
-        <div id="weather">
-          <a href="http://codepen.io/ashishdommety/full/QGmWWM" target="_blank">
-            <h3>Weather App</h3>
-            <img class="work" src="assets/images/weather.png" alt="weather">
-          </a>
-        </div>
-        <div id="wiki">
-          <a href="http://codepen.io/ashishdommety/full/NbOMwr" target="_blank">
-            <h3>Wiki Search App</h3>
-            <img class="work" src="assets/images/wiki.png" alt="wiki">
-          </a>
-        </div>
-        <div id="clock">
-          <a href="http://codepen.io/ashishdommety/full/jBoeWx/" target="_blank">
-            <h3>Pomodoro Clock</h3>
-            <img class="work" src="assets/images/pomodoro.png" alt="pomodoro-clock">
-          </a>
-        </div>
-
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>About Me</title>
+</head>
+<link rel="stylesheet" href="assets/bootstyle.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="index.html">Ashish Dommety</a>
       </div>
-      <div id="connect">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="navbar-collapse collapse in navbar-right" id="bs-example-navbar-collapse-1" aria-expanded="true" style="">
+        <ul class="nav navbar-nav navbar-left">
+          <li><a href="index.html">About Me<span class="sr-only">(current)</span></a></li>
+          <li class="active"><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="dropdown open">
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 box">
+        <div class="row">
+          <h3 class="title">Portfolio</h3>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-2">
+            <h4>Calculator</h4>
+            <img class="work" src="assets/images/calc.png" alt="">
+          </div>
+          <div class="col-md-4 col-md-offset-2">
+            <h4>Pomodoro</h4>
+            <img class="work" src="assets/images/pomodoro.png" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-2">
+            <h4>Weather</h4>
+            <img class="work" src="assets/images/weather.png" alt="">
+          </div>
+          <div class="col-md-4 col-md-offset-2">
+            <h4>Wiki</h4>
+            <img class="work" src="assets/images/wiki.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-5 col-md-offset-1 box">
         <h3>Connect with me</h3>
         <hr>
-        <a href="https://github.com/ashishdommety" target="_blank"><img class ="icons" src="assets/images/github.png" alt="github"></a>
-        <a href="http://codepen.io/ashishdommety/" target="_blank"><img class ="icons" src="assets/images/codepen.png" alt="codepen"></a>
-        <a href="https://www.linkedin.com/in/ashish-dommety-393054b5" target="_blank"><img class ="icons" src="assets/images/linkedin.png" alt="linkedin"></a>
-        <a href="https://www.freecodecamp.com/ashishdommety" target="_blank"><img class ="icons" src="assets/images/fcc.jpg" alt="freecodecamp"></a>
+        <a href="https://github.com/ashishdommety" target="_blank"><img class="icons" src="assets/images/github.png" alt="github"></a>
+        <a href="http://codepen.io/ashishdommety/" target="_blank"><img class="icons" src="assets/images/codepen.png" alt="codepen"></a>
+        <a href="https://www.linkedin.com/in/ashish-dommety-393054b5" target="_blank"><img class="icons" src="assets/images/linkedin.png" alt="linkedin"></a>
+        <a href="https://www.freecodecamp.com/ashishdommety" target="_blank"><img class="icons" src="assets/images/fcc.jpg" alt="freecodecamp"></a>
       </div>
     </div>
-    <div id="foot">
-        <hr>
-      <footer>
-        <p>&copy; Copyright 2017 Ashish Dommety</p>
-      </footer>
-    </div>
-  </body>
+  </div>
+  <div class="row">
+    <footer>
+      <p class="foot">&copy; Copyright 2017 Ashish Dommety</p>
+    </footer>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
+</body>
 </html>
