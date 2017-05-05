@@ -29,6 +29,7 @@ body{
     background-image: url(images/bg-2.png);
     padding:20px;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 .work{
   width:120px;
@@ -96,23 +97,30 @@ body{
   background-color: #738769;
   color:white;
   padding: 10px;
+  border-radius: 10px;
   text-align: center;
 }
 #pomodoroTitle{
   background-color: #738769;
   color:white;
   padding: 10px;
+  border-radius: 10px;
   text-align: center;
 }
 #weatherTitle{
   background-color: #738769;
   color:white;
   padding: 10px;
+  border-radius: 10px;
   text-align: center;
 }
 #wikiTitle{
   background-color: #738769;
   color:white;
   padding: 10px;
+  border-radius: 10px;
   text-align: center;
+}
+#connectBox{
+  margin-top: 100px;
 }
