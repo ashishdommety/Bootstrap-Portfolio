@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="assets/bootstyle.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <body>
-  <nav class="navbar navbar-default">
+  <nav id="navigation" class="navbar navbar-default">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -19,7 +19,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a class="navbar-brand"  href="index.html"><strong>Ashish Dommety</strong></a>
+        <a id="headerText" class="navbar-brand"  href="index.html">Ashish Dommety</a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="navbar-collapse collapse in navbar-right" id="bs-example-navbar-collapse-1" aria-expanded="true" style="">
@@ -40,11 +40,11 @@
       <div class="col-md-6 animated fadeInLeft">
         <div class="row box">
           <h3 class="title animated fadeInDown">About Me:</h3>
-          <hr>
-          <div class="col-md-4 animated fadeInLeft">
+          <hr id="titleUnderline">
+          <div class="col-md-4 col-xs-4 animated fadeInLeft">
             <img class="pic" src="assets/images/profile-pic.jpg" alt="">
           </div>
-          <div class="col-md-7 col-md-offset-1 animated fadeInLeft">
+          <div class="col-md-7 col-md-offset-1 col-xs-8 animated fadeInLeft">
             <p class="text">
               <strong style="font-weight:bold; text-decoration:underline;">Introduction:</strong><br>
                Hey there!
@@ -70,7 +70,7 @@
       </div>
       <div class="col-md-5 col-md-offset-1 box animated fadeInDown">
         <h3 class="title animated fadeInDown">Connect with me</h3>
-        <hr>
+        <hr id="titleUnderline">
         <a href="https://github.com/ashishdommety" target="_blank"><img class="icons animated fadeInRight" src="assets/images/github.png" alt="github"></a>
         <a href="http://codepen.io/ashishdommety/" target="_blank"><img class="icons animated fadeInRight" src="assets/images/codepen.png" alt="codepen"></a>
         <a href="https://www.linkedin.com/in/ashish-dommety-393054b5" target="_blank"><img class="icons animated fadeInRight" src="assets/images/linkedin.png" alt="linkedin"></a>
@@ -80,7 +80,7 @@
   </div>
   <div class="row">
     <footer>
-      <p class="foot">&copy; Copyright 2017 Ashish Dommety</p>
+      <p id="footerBorder" class="foot">&copy; Copyright 2017 Ashish Dommety</p>
     </footer>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
